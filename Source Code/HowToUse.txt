@@ -1,0 +1,92 @@
+Mp3_proPlayer 2.1.0 (release 7/21/2006)
+
+Author : Phuc.H Truong <aka Hanachacha> _ VietNam
+Email :phtmouse84@yahoo.com
+
+*************************************************************************
+Files List : in [MP3_prolayer???????].zip
+
+- [Image] : include 11 file (not important)
+- [EQ] : EqualizerPreset.epr
+- [Skins] : include 4 files --> Default.zip, M3PAmp.zip, M3P_New.zip, BlueSteel.zip
+- [Plugins] : bass.rename, basscd.rename, bass_wa.rename, bass_wadsp.rename, basswma.rename
+	      [Spectrum],[ Scope]
+
+
+- Readme.html
+- MP3_proPlayer.vbp
+- M3P_Control.vbp
+- M3P_Tag.vbp
+- M3P_API.vbp
+
+*************************************************************************
+
+1-How to use my project: (very important)
+
+*Step 1: 
+	 In [Plugins] find bass.rename, basscd.rename, bass_wa.rename, bass_wadsp.rename, basswma.rename
+	 and rename it to *.dll(ex: bass.dll) or if you didn't found any file so 
+	 you go to www.un4seen.com --> download bass.dll (ver 2.3.0.1), basscd.dll, bass_wa.dll, bass_wadsp.dll, basswma.dll.
+	 After you download dll you must move them to [Project Folder]\[Plugins] go to Step 2.
+
+*Step 2:       Open M3P_Control project and compile to [Project]\[Plugins]\M3P_Control.ocx
+	 Open M3P_API project and compile to [Project]\[Plugins]\M3P_API.dll
+	 Open M3P_Tag project and compile to [Project]\[Plugins]\M3P_Tag.dll
+	 Go to Step 3.
+
+*Step 3:      Open MP3_proPlayer project.
+	 
+	 if window message "...coudn't load M3P_Control.ocx ..." --> Click Yes.
+	 
+	 Don't open any form or module, if you open (edit any form ) I suggest you close project and NOT SAVE. (Yes NOT SAVE !!!)After close , you open again.
+
+	 Open [Project]\Components...--> show Components Form , Click Browse and go to [Project]\[Plugins]
+	 Select M3P_Control.ocx --> Ok
+	 
+	 Close project with SAVE. Go to Step 4.
+
+*Step 4:      Open MP3_proPlayer project.
+	 Play to test it, if have any error such "Can't create object ..." message then --End-- proccess.
+	 Open [Project]\References...-->find M3P_API.dll, M3P_Tag.dll --> If them checked then UNCHECK THEM (Yes UNCHECK THEM).
+	 Save and Close project.Go to Step 5.
+
+*Step 5: Open MP3_proPlayer project.
+	 Open [Project]\References...-->Click BROWSE--> Find M3P_Tag.dll and M3P_API.dll.
+	 After check them Click OK.
+	 NOW YOU CAN RUN MY PROJECT ^.^ ENJOY IT. Hope you like my program.
+
+2-How to use Winamp Plugin :
+
+* Only Winamp Vis Plugin for ver 2.x and Winamp DSP Plugins is Support.
+* All plugins must installed to [MP3_proPlayer?????]\[Plugins]
+* Some plugins can crash your computer.Please read plugins tested list below:
+
+*****Winamp Vis Plugins Tested*****
+AdvancedVisualization Studio v2.5
+FastLIB Winamp plugin
+Geiss 2 v1.0
+SpectrumAnalyser
+Nullsoft test Visualization Library v1.0
+
+*****Winamp DSP Plugins Tested*****
+Enhancer v0.17
+Equalizer by nevi
+DFX 7.2
+RockSteady
+Sound Solution 1.31
+4Front OSS/3D R7 (OSPI)
+
+************************************************************************
+
+NOTE: I didn't write all , Please read Reame.html for more information.
+
+PS :If you like my project please vote for me and if you have any idea or find any error please
+    send me by email : phtmouse84@yahoo.com
+    Winamp Input Plugin will supported in comming soon.(I hope v2.2.0)
+
+
+
+
+
+
+
